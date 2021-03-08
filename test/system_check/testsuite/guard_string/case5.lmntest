@@ -1,0 +1,3 @@
+neq($s, $t) :- string($s), string($t), $s \= $t | yes. neq("hello", "hell"). 
+yes. 
+ok
